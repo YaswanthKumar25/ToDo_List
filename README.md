@@ -1,65 +1,57 @@
-# ToDo_List
+<h1 align="center">📝 ToDo List App</h1>
+<p align="center">
+A simple and clean To-Do List application built using <strong>Django</strong> — helping users add, update, and manage daily tasks efficiently.
+</p>
 
-A simple To-Do List web application built with Python (Django/Flask) to manage tasks efficiently.
+<div align="center">
 
-## Features
-- Add, update, and delete tasks
-- Simple and clean interface with HTML templates
-- Stores task data with SQLite
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-blueviolet?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
-## Project Structure
+</div>
 
-- `ToDo/` - Core application code
-- `Todo_App/` - Additional app code
-- `templates/` - HTML templates
-- `db.sqlite3` - SQLite database file
-- `manage.py` - Project management script
+---
 
-## Requirements
+## 📌 **About the Project**
 
-- Python 3.x
-- Django (or Flask)
-- Other Python libraries (see requirements.txt if present)
+The **ToDo List App** is a simple and user-friendly web application for managing daily tasks.
 
-## Setup
+Users can:
 
-1. **Clone the repo:**
-git clone https://github.com/Yashwanhkumar/ToDo_List.git
-cd ToDo_List
+✔ Add new tasks  
+✔ Update existing tasks  
+✔ Mark tasks as completed  
+✔ Delete tasks easily  
 
-text
+This lightweight application is perfect for beginners or anyone who wants an easy task manager.
 
-2. **(Recommended) Set up virtual environment:**
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
+---
 
-text
+## ⭐ **Features**
 
-3. **Install requirements:**
-pip install -r requirements.txt
+- ➕ Add new tasks  
+- ✏️ Edit/update tasks  
+- ✔️ Mark tasks as completed  
+- ❌ Delete tasks  
+- 🎨 Clean and simple UI  
+- 📱 Responsive design  
+- 🔄 Persistent data using Django + SQLite  
 
-text
-Or
-pip install django
+---
 
-text
+## 🧰 **Tech Stack**
 
-4. **Apply migrations:**
-python manage.py migrate
+| Layer | Technology |
+|------|------------|
+| **Backend** | Django, Python |
+| **Frontend** | HTML, CSS, Bootstrap |
+| **Database** | SQLite |
+| **Tools** | Git, VS Code |
 
-text
+---
 
-5. **Run server:**
-python manage.py runserver
+## 📸 Screenshots  
+> Add screenshots inside a folder named `screenshots/`
 
-text
-
-6. **Visit:** `http://127.0.0.1:8000`
-
-## Usage
-
-- Add, edit, and delete tasks via the web interface. Data is saved in the local database.
-
-## Author
-
-Yashwanhkumar
