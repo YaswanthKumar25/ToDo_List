@@ -53,5 +53,3 @@ This lightweight application is perfect for beginners or anyone who wants an eas
 ---
 
 ## 📸 Screenshots  
-> Add screenshots inside a folder named `screenshots/`
-
